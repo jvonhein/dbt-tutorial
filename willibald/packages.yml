@@ -1,0 +1,4 @@
+
+packages:
+  - package: ScalefreeCOM/datavault4dbt
+    version: 1.4.2

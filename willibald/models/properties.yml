@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: srvlt_willibald_shop_bestellung_p1
+    description: Eine Bestellung pro Zeile
+    columns:
+      - name: HK_BESTELLUNG
+        description: Primary key
+        tests:
+          - unique
+          - not_null

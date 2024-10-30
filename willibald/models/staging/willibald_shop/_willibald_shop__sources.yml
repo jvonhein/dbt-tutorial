@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: willibald_shop_p1
+    description: Willibald-Shop Rohdaten - Snapshot 1
+    database: dv_database
+    schema: willibald_shop_p1
+    tables:
+      - name: bestellung
+      - name: kategorie
+      - name: kunde
+      - name: lieferadresse
+      - name: lieferdienst
+      - name: lieferung
+      - name: position
+      - name: produkt
+      - name: vereinspartner
+      - name: wohnort
